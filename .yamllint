@@ -1,5 +1,10 @@
 extends: default
 
+ignore: |
+  .venv/
+  .git/
+  dist/
+
 rules:
   line-length:
     max: 100
