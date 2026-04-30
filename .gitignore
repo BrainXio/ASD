@@ -29,4 +29,7 @@ prompt.txt
 # OS
 .DS_Store
 Thumbs.db
+
+# Task files
+tasks.json
 .mcp.json
