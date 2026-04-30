@@ -13,8 +13,8 @@ uv pip install -e .
 export ADHD_BUS_REPO_SLUG=projects
 ```
 
-ASD publishes schema announcements to the ADHD bus when knowledge artifacts are
-ingested or compiled.
+ASD publishes schema announcements to the ADHD bus when knowledge artifacts are ingested or
+compiled.
 
 ## MCP Server
 
