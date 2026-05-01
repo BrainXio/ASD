@@ -11,10 +11,6 @@ venv/
 .vscode/
 .idea/
 
-# ASD runtime
-USER/*
-!USER/.gitignore
-
 # AI tool artifacts (never committed)
 CLAUDE.md
 PLAN.md
