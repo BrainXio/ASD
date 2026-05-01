@@ -288,9 +288,7 @@ class TestScanPrototypes:
             (proj / "Dockerfile").write_text("")
             (proj / "src").mkdir(parents=True)
             (proj / "src" / "app.py").write_text(
-                "import ollama\n"
-                + "model = 'transformer'\n"
-                + "# machine learning inference\n"
+                "import ollama\n" + "model = 'transformer'\n" + "# machine learning inference\n"
             )
 
             result = scan_prototypes(root_dir=root)

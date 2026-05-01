@@ -269,10 +269,7 @@ class TestQualityGate:
         body = "just a short body"
         accepted, warnings = _quality_gate(fm, body)
         # Short body = low score, should warn
-        assert any(
-            "quality score" in w or "word count" in w
-            for w in warnings
-        )
+        assert any("quality score" in w or "word count" in w for w in warnings)
 
     def test_rejects_zero_score_under_reject_threshold(self) -> None:
         fm = {"title": "Test"}

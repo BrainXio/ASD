@@ -126,7 +126,8 @@ def _save_mode(mode: str) -> None:
     """Persist the current mode to disk."""
     Path(_MODE_STATE_FILE).parent.mkdir(parents=True, exist_ok=True)
     Path(_MODE_STATE_FILE).write_text(
-        json.dumps({"mode": mode}, indent=2), encoding="utf-8",
+        json.dumps({"mode": mode}, indent=2),
+        encoding="utf-8",
     )
 
 
